@@ -1,4 +1,4 @@
-# 16 Devices Macros for MIDI Fighter Twister
+# 16 Device Macros for MIDI Fighter Twister
 
 This is a very simple mapping setup:
 
