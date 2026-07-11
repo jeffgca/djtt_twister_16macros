@@ -13,7 +13,7 @@ This is a very simple mapping setup:
 * macOS: HD:/Users/[Username]/Library/Preferences/Ableton/Live x.x.x/User Remote Scripts
 * Windows: C:\Users\[Username]\AppData\Roaming\Ableton\Live x.x.x\Preferences\User Remote Scripts
 
-_Note: These folders are hidden by default._
+( _Note: These folders are hidden by default._ )
 
 2/ In the MIDI Fighter Utility app, go to the File menu, select 'Import Settings', then browser to where you unzipped this mapping and select the file 'Twister_16_Macros.mfs'
 
