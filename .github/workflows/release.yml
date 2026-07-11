@@ -1,0 +1,27 @@
+name: Publish Release Archive
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create zip archive
+        run: |
+          git archive --format=zip --prefix=djtt_twister_16macros-${{ github.event.release.tag_name }}/ \
+            ${{ github.event.release.tag_name }} > djtt_twister_16macros-${{ github.event.release.tag_name }}.zip
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: djtt_twister_16macros-${{ github.event.release.tag_name }}.zip
