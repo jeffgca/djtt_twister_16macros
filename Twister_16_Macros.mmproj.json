@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "tool": "midi-mapper",
+  "license": "generated-output: CC0-1.0 (public domain)",
+  "savedAt": "2026-07-11T19:09:57.266Z",
+  "scriptName": "Twister_16_Macros",
+  "controllerKey": null,
+  "mappings": [
+    {
+      "uid": 2,
+      "type": "bank",
+      "controls": [
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 0,
+          "numLabel": "CC 0"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 1,
+          "numLabel": "CC 1"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 2,
+          "numLabel": "CC 2"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 3,
+          "numLabel": "CC 3"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 4,
+          "numLabel": "CC 4"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 5,
+          "numLabel": "CC 5"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 6,
+          "numLabel": "CC 6"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 7,
+          "numLabel": "CC 7"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 8,
+          "numLabel": "CC 8"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 9,
+          "numLabel": "CC 9"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 10,
+          "numLabel": "CC 10"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 11,
+          "numLabel": "CC 11"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 12,
+          "numLabel": "CC 12"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 13,
+          "numLabel": "CC 13"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 14,
+          "numLabel": "CC 14"
+        },
+        {
+          "kind": "cc",
+          "channel": 1,
+          "number": 15,
+          "numLabel": "CC 15"
+        }
+      ],
+      "mapMode": "absolute"
+    },
+    {
+      "uid": 3,
+      "type": "control",
+      "kind": "cc",
+      "channel": 2,
+      "number": 0,
+      "numLabel": "CC 0",
+      "label": "Control Change",
+      "actions": [
+        "dev_onoff"
+      ],
+      "target": {
+        "mode": "selected",
+        "track": 1
+      },
+      "btnType": "momentary",
+      "led": "",
+      "ledOpen": false
+    }
+  ]
+}
